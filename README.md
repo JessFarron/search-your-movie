@@ -1,4 +1,4 @@
-# search-your-movie
+# SEARCH-YOUR-MOVIE
 Looking out for the movie in my mind
 
 ## Description
