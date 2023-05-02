@@ -40,7 +40,12 @@ THEN I return to the main page where I can again initiate my search
 
 ## Usage
 The website must look like this in order to accomplish the Acceptance Criteria:
-(images pending)
+![Screenshot 2023-05-01 at 11 45 27 p m](https://user-images.githubusercontent.com/126216168/235588463-e27b29cc-a120-4be8-b7ee-74fcc7ce3e1e.png)
+
+![Screenshot 2023-05-01 at 11 46 24 p m](https://user-images.githubusercontent.com/126216168/235588580-699ac5d6-5ee9-4aba-a590-25101eb1c081.png)
+
+![Screenshot 2023-05-01 at 11 46 48 p m](https://user-images.githubusercontent.com/126216168/235588634-73989340-49f0-4def-9c2b-71f40173fbb4.png)
+
 
 ## Credits
 
