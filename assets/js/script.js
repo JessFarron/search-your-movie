@@ -128,7 +128,7 @@ function displaySearchHistory() {
 
 
 
- /*var myFavoritesEl = document.getElementById("my-favorites");
+ var myFavoritesEl = document.getElementById("my-favorites");
 
 
 // Making my favorites button go to the favorites page
@@ -136,6 +136,7 @@ myfav.addEventListener("click", function(){
     window.location.replace("myfav.html")
     displaySearchHistory()
 })
+/*
 // Let us return from favorites to home
 
 

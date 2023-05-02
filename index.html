@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Movies Tonigh</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
     <!--top image-->
     <header>
 
         <div class="secondpart">
-            <div class="h-60 bg-fit p-10" style="background-image: url(./top.jpg)">
+            <div class="h-60 bg-fit p-10" style="background-image: url(./assets/img/top.jpg)">
                 <div class="flex flex-row justify-between">
                     <button id="home-button" class="font-sans border-2 text-white bg-black text-center w-40 h-8">Home</button>
-                    <button id="myfav" class="font-sans border-2 text-white bg-black text-center w-40 h-8">Previous searches</button>
+                    <button id="myfav" class="font-sans border-2 text-white bg-black text-center w-40 h-8">History</button>
                 </div>
             </div>
             <div class="thirdpart">
-                <div class="bg-contain h-20" style="background-image: url(./film.jpg)"><br>
+                <div class="bg-contain h-20" style="background-image: url(./assets/img/film.jpg)"><br>
                     <h1 class="bg-white font-mono font-bold text-4xl text-center text-blue-500">WHAT ARE WE WATCHING
                         TONIGHT?</h1>
                 </div>
@@ -79,7 +79,7 @@
             
                 <!-- First "Movie Box" after search-->
                 <div class="box-movie bg-white my-8 mx-20 h-48 flex">
-                    <div class="image h-48"><img src="./movimg.jpeg" class="imgClass h-full" id="img1"alt=""></div>
+                    <div class="image h-48"><img src="" class="imgClass h-full" id="img1"alt=""></div>
                     <div class="w-5/6 p-4 flex flex-col justify-between">
                         <div>
                             <p class="movie-title font-bold" id="movie1title"> </p>
@@ -215,11 +215,11 @@
 
 
     <footer class="mt-6">
-        <div class="bg-contain h-20" style="background-image: url(./film.jpg)"></div>
+        <div class="bg-contain h-20" style="background-image: url(./assets/img/film.jpg)"></div>
     </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.5/flowbite.min.js"></script> 
-    <script src="./script.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
