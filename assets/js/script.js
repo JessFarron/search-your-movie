@@ -67,16 +67,16 @@ function displayList() {
                         console.log(e.target.dataset.title);
                         searchTrailer(e.target.dataset.title);
                         });
-/*                         favBtn[i].dataset.favorite=data.results[i].title;
+/*                       favBtn[i].dataset.favorite=data.results[i].title;
                         favBtn[i].addEventListener("click",function(e) {
                         console.log(e.target.dataset.title);
                         }); */
 
                         let searchHistory = JSON.parse(localStorage.getItem('searchHistory')) || [];
-                        if (!searchHistory.includes(movieTitle)) {
-                          searchHistory.push(movieTitle);
+                        const capitalizedMovieTitle = movieTitle.charAt(0).toUpperCase() + movieTitle.slice(1);
+                        if (!searchHistory.includes(capitalizedMovieTitle)) {
+                          searchHistory.push(capitalizedMovieTitle);
                           localStorage.setItem('searchHistory', JSON.stringify(searchHistory));
-                          window.location.href = 'myfav.html';
                         }
  
                     }
@@ -113,7 +113,7 @@ function displaySearchHistory() {
     searchHistoryDiv.innerHTML = '';
   
     searchHistory.forEach(movieTitle => {
-      const button = document.createElement('div');
+      const button = document.createElement('ol');
       button.classList.add("side-right" , "bg-gradient-to-b" , "from-blue-400");
       button.textContent = movieTitle;
       button.addEventListener('click', () => {
