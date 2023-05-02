@@ -44,7 +44,11 @@ THEN I return to the main page where I can again initiate my search
 
 For this Challenge we mainly used  all of our knowledge from the content of the bootcamp and tutoring sessions, two open APIs data base, wireframe and documentation pages:
 
-
+- [Tailwind](https://tailwindcss.com/docs/installation) 
+- [W3Schools](https://www.w3schools.com/howto/howto_css_modals.asp)
+- [Mozilla Developer Network] (https://developer.mozilla.org/en-US/)
+- [Youtube API v3] (https://developers.google.com/youtube/v3?hl=es-419)
+- [TheMovieDataBase API] (https://developers.themoviedb.org/3/getting-started/introduction)
 
 
 ## Link to the website worked with the Accepted Criteria
