@@ -24,9 +24,11 @@
   #modal-title {
       background-image: linear-gradient(to top, #545454, #434343, #333333, #232323, #141414);
   }
-  h3 {
+
+  h3, h1, li {
     color: antiquewhite;
 }
+
 .synopsis { 
     font-size: 12px;
 }

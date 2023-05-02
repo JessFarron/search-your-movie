@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body class="bg-black">
+    <!--top image-->
+    <header>
+       
+        <div class="secondpart">
+            <div class="h-60 bg-contain p-10"style="background-image: url(./bckg.gif)">
+                <div class="flex flex-row justify-between">
+                    <button id="home" class="font-sans text-white bg-black text-center w-40 h-8" onclick="returnHome()">Home</button>
+                    <button id="myfav" class="font-sans text-white bg-black text-center w-40 h-8">Previous search</button>
+                </div>
+        </div>
+        <div class="thirdpart">
+            <div class="bg-contain h-20" style="background-image: url(./film.jpg)"><br>
+                <h1 class="bg-white font-mono font-bold text-4xl text-center text-blue-500">WHAT ARE WE WATCHING TONIGHT?</h1>
+            </div> 
+            
+        </div>
+    </header>
+    
+
+    <div class="favorites-container">
+        <!-- <h2 class="favorites text-white text-center font-mono pt-10 text-2xl">Your favorites picked:</h2> -->
+        <!-- <ul id="myfavorites" class="text-white"></ul> -->
+    </div>
+        
+
+
+    
+        <div class="flex boxes p-10">
+            <div class="side-right bg-gradient-to-b from-blue-400">
+                <h2 class="favorites text-white text-center font-mono pt-10 text-2xl">Your Search History</h2> 
+                <div class="pt-5 pr-5 pl-5">
+                    <ul class="font-sans text-white text-1xl pt-4" id="search-history"></ul>>
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+    <script>
+    const searchHistory = localStorage.getItem('searchHistory');
+    const searchHistoryArray = JSON.parse(searchHistory);
+    const searchHistoryList = document.getElementById('search-history');
+    searchHistoryArray.forEach(item => {
+      const li = document.createElement('li');
+      li.textContent = item;
+      searchHistoryList.appendChild(li);
+    });
+  </script>  
+
+<script src="./script.js"></script>
+</body>
+</html>
