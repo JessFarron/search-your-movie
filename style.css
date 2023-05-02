@@ -1,0 +1,32 @@
+.side-left{
+    width: 35%;
+    height: 300px;
+    float: left;
+    display: inline-block;
+}
+
+.side-right{
+    margin-left: 30px;
+    width:64%;
+    height: 300px;
+    float: right;
+    display: inline-block;
+}
+
+.hide {
+    display:none;
+}
+
+#modal-box-container {
+    background-image: linear-gradient(to right top, #101a29, #0f1d33, #0d213d, #0b2448, #0a2752);
+  }
+
+  #modal-title {
+      background-image: linear-gradient(to top, #545454, #434343, #333333, #232323, #141414);
+  }
+  h3 {
+    color: antiquewhite;
+}
+.synopsis { 
+    font-size: 12px;
+}
