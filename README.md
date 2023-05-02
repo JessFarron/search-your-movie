@@ -39,7 +39,8 @@ THEN I return to the main page where I can again initiate my search
 ```
 
 ## Usage
-
+The website must look like this in order to accomplish the Acceptance Criteria:
+(images pending)
 
 ## Credits
 
