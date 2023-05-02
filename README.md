@@ -2,7 +2,8 @@
 Looking out for the movie in my mind
 
 ## Description
-
+- This project allowed us to work as a team for the first time getting to know the collaborations needed in the software world. Trying to put together the project teached us patience and how to work delicately with the code, that any commit can make a whole different outcome. We learned that teamwork communication is important and that helping each other is as well. 
+- Working with the code and trying to work on an idea was the best part since it made us think on all the possibilities that we could make the website app come together. We wanted something friendly for any user that is having in mind to look up for that recommendation, that movie or series they just can't get to fully remember, also show a trailer to make it more interactive and fun, allowing them to go back and check their previous searches so whenever they want, they go back to see their historial.
 
 ## Installation
 
